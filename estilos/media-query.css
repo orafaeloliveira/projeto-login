@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (width > 768px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #499f9d);
+    }
+    #imagem {
+        height: 100%;
+        background-position: top left;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #cartao {
+        width: 80vw;
+        grid-template-columns: 30% 1fr;
+        height: auto;
+    }
+    .entrada {
+        width: 100%;
+    }
+}
+
+@media screen and (width > 992px) {
+    #cartao {
+        grid-template-columns: 1fr 1fr;
+        width: 950px;
+        height: auto;
+    }
+    #imagem {
+        grid-column: 2;
+        grid-row: -1;
+        background-position: bottom left;
+        border-radius: 0px 15px 15px 0px;
+    }
+    main > div > h1 {
+        font-size: 2em;
+    }
+    main > div > p {
+        font-size: 1.1em;
+    }
+}
