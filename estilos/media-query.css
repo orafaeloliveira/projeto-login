@@ -14,6 +14,16 @@
         grid-template-columns: 30% 1fr;
         height: auto;
     }
+    main > div > p {
+        margin: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 80%;
+    }
+    .campo, .botoes {
+        width: 80%;
+        margin: auto;
+    }
     .entrada {
         width: 100%;
     }
@@ -36,5 +46,9 @@
     }
     main > div > p {
         font-size: 1.1em;
+        width: 70%;
+    }
+    .campo, .botoes {
+        width: 70%;
     }
 }
